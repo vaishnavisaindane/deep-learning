@@ -25,3 +25,9 @@ print(f'Loss: {loss:.4f}, Accuracy: {accuracy:.4f}')
 # Make predictions
 predictions = model.predict(X)
 print('Predictions:', np.round(predictions).flatten())
+
+output:
+1/1 [==============================] - 0s 230ms/step - loss: 0.1760 - accuracy: 1.0000
+Loss: 0.1760, Accuracy: 1.0000
+1/1 [==============================] - 0s 138ms/step
+Predictions: [0. 1. 1. 0.]
